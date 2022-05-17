@@ -1,0 +1,42 @@
+Git e GITHUB é para verificar os códigos (revisor), bem como editar ao mesmo tempo que outra pessoa, armazenar de forma organizada, etc.
+
+Como funciona o GIT
+-SHA1 é um conjunto de função criptografada, gera um conjunto de caracteres de 40 dígitos.
+
+-Objetos
+Blob arquivos com dados e que guarda o sha1 de um arquivo
+Tree tem vários blobs ou outras árvores
+Se for mudado um arquivo (pode ser um caractere) vai mudar o blob dela, e tambem a tree.
+Commit junta tudo: e indica que nada foi alterado, nem autor, nem mensagem, tree, blob, etc.
+
+Autenticação:
+Chave SSH
+Token 
+
+Limpar o terminal do Git: ctrl L
+Entrar numa pasta: cd e o nome do caminho. Exemplo: cd /c/Users/mari_/.ssh vai entrar na pasta .ssh e esse nome vai ficar do lado da frase que se repete no terminal indicando que to dentro da pasta.
+Para ver o caminho da pasta que estou dentro: pwd
+
+Como clonar um respositório: no terminal escrever gitclone e copiar o link do codigo ssh. 
+GIT:
+Antes sempre vai escrito git e depois o comando
+Git status indica se o arquivo foi modificado, editado, 
+
+CRIANDO REPOSITORIO: 
+
+Ls -a vai mostrar os arquivos ocultos.
+
+MARKDOWN:
+#título nível 1
+## título nível 2
+
+TÍTULO NÍVEL 1
+Título nível 2
+
+HTML
+<h1> Título nível 1 </h1>
+<h2> Título nível 2 </h2>
+
+**negrito**
+_intalico_
+Espaço - espaço cria lista de itens
